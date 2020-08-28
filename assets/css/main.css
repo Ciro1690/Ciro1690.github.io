@@ -1957,6 +1957,7 @@ input, select, textarea {
 
 	.contact-info {
 		float: right;
+		text-align: right;
 	}
 
 	#footer-text, #footer-message {
@@ -1966,7 +1967,7 @@ input, select, textarea {
 	}
 
 	#footer-text {
-		width: 15%;
+		width: 30%;
 	}
 
 	#footer-message {
