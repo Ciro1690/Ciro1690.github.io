@@ -6,7 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+.appacademy {
+	font-size: 20px;
+}
 
 
 html, body, div, span, applet, object,
@@ -195,7 +197,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 	}
 
 	.date {
@@ -311,7 +313,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -319,7 +321,7 @@ input, select, textarea {
 		}
 
 		.row > .col-5 {
-			width: 41.66667%;
+			width: 50%;
 		}
 
 		.row > .off-5 {
@@ -343,7 +345,7 @@ input, select, textarea {
 		}
 
 		.row > .col-8 {
-			width: 66.66667%;
+			width: 50%;
 		}
 
 		.row > .off-8 {
@@ -1222,7 +1224,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 	}
 
 	section > :last-child,
@@ -1387,7 +1389,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 8px;
-			width: 50%;
+			width: 25%;
 		}
 
 		.image:before {
@@ -1398,7 +1400,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			opacity: 0.75;
+			opacity: 0;
 		}
 
 
@@ -1409,13 +1411,13 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 150%;
+			width: 100%;
 			margin: 0 0 2.5em 0;
 		}
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
+			margin: 0 -10em 2em 0;
 		}
 
 		.image.centered {
@@ -1615,7 +1617,7 @@ input, select, textarea {
 		}
 
 		.box.excerpt .image, .box.excerpt p {
-			margin-bottom: 0;
+			margin-bottom: 4px;
 		}
 
 	.box.feature1 {
@@ -1660,9 +1662,17 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.box.article-list h2, .box.spotlight h2 {
+		text-align: left;
+	}
+
+	.box.article-list h2 {
+		margin-bottom: 70px;
+	}
+
 	.box.article-list article {
-		border-bottom: solid 1px #dbdbdb;
-		margin: 0 0 2.75em 0;
+		/* border-bottom: solid 1px #dbdbdb; */
+		margin: -30px 87px -.25em 0;
 		padding: 0 0 2.75em 0;
 	}
 
@@ -1945,6 +1955,24 @@ input, select, textarea {
 
 /* Footer */
 
+	.contact-info {
+		float: right;
+	}
+
+	#footer-text, #footer-message {
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		margin: 5px;
+	}
+
+	#footer-text {
+		width: 15%;
+	}
+
+	#footer-message {
+		width: 50%;
+	}
+
 	#footer {
 		margin-bottom: 0;
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
@@ -1993,6 +2021,7 @@ input, select, textarea {
 		border-color: rgba(255, 255, 255, 0.075);
 		text-align: center;
 		color: inherit;
+		margin-top: 20px;
 	}
 
 		#copyright a {
@@ -2338,6 +2367,7 @@ input, select, textarea {
 
 			.image.left {
 				width: 25%;
+				margin: 0 -10em -5em 0;
 			}
 
 		/* Button */
@@ -2390,6 +2420,7 @@ input, select, textarea {
 			.box.spotlight {
 				margin-top: 2em;
 			}
+
 
 		/* Wrappers */
 
