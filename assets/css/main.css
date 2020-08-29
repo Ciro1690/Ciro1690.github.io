@@ -55,6 +55,11 @@ table {
 	border-spacing: 0;
 }
 
+.self-photo {
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -250,6 +255,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin-bottom: 50px;
 	}
 
 		.row > * {
@@ -1890,6 +1896,10 @@ input, select, textarea {
 		padding: 3em 0 2em 0;
 	}
 
+	#footer-wrapper h2 {
+		color: white;
+	}
+
 	.wrapper {
 		padding: 7em 0 7em 0;
 	}
@@ -1955,9 +1965,15 @@ input, select, textarea {
 
 /* Footer */
 
+	.contactme {
+		width: calc(66.666% - 50px);
+		margin-right: 50px;
+	}
+
 	.contact-info {
-		float: right;
-		text-align: right;
+		width: calc(33.333% - 100px);
+		text-align: left;
+		margin-left: 100px;
 	}
 
 	.contact-info dd a {
@@ -1971,12 +1987,17 @@ input, select, textarea {
 		margin: 5px;
 	}
 
+	.copyright {
+		float: right;
+	}
+
 	#footer-text {
-		width: 30%;
+		width: 50%;
 	}
 
 	#footer-message {
-		width: 50%;
+		width: 75%;
+		height: 100px;
 	}
 
 	#footer {

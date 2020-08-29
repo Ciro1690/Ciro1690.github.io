@@ -6,7 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/initials.png">
+		<link rel="icon" href="images/favicon_io/favicon.ico">
+		<script src="https://kit.fontawesome.com/7bf8b700c0.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -15,7 +16,7 @@
 							<div id="banner">
 								<h2><strong>Ciro Griffiths</strong> 
 									<br>self-taught software engineer <br> based out of Philadelphia, PA<br>
-									<a><img src="images/chef.jpg" alt="self"></a>
+									<a><img class="self-photo" src="images/chef.jpg" alt="self"></a>
 								</h2>
 							</div>
 
@@ -148,45 +149,35 @@
 				</div>
 
 			<!-- Footer Wrapper -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<!-- <div class="row"> -->
-							<h2>Get in touch</h2>
+				<section id="footer-wrapper">
+					<!-- <footer id="footer" class="container"> -->
+					<h2>Get in touch</h2>
+						<div class="row">
 								<div class="contact-info">
 									<dd><a href="images/CGResume.pdf">Resume</a></dd>
 									<dd><a href="https://github.com/Ciro1690" target="blank" class="icon brands fa-github"> Ciro1690</a></dd>
-									<dd><a href="https://www.linkedin.com/in/ciro-griffiths-49b2a032/" class=" fab fa-linkedin"> Linkedin</a></dd>
-									<dd><a href="mailto:Ciro16@gmail.com?subject=Hello!" class="fa fa-envelope fa-0"> Ciro16@gmail.com</a></dd>
+									<dd><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ciro-griffiths-49b2a032/"> Linkedin</a></dd>
+									<dd><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:Ciro16@gmail.com?subject=Hello!"> Ciro16@gmail.com</a></dd>
 									<dd><div class="icon solid fa-mobile-alt"> (845) 750-3166</div></dd><br>
 								</div>
-							<div class="col-3 col-6-medium col-12-small">	
-								<section>
-									<div class="contactme">
-										<form method="post" action="mailto:ciro16@gmail.com" enctype="text/plain">
-												<input type="text" name="name" id="footer-text" placeholder="Name">
-												<input type="email" name="email" id="footer-text" placeholder="Email"><br>
-												<textarea name="message" id="footer-message" placeholder="Message" rows="4"></textarea><br>
-												<ul class="actions">
-													<li><input type="submit" value="Send Email"></li>
-													<li><input type="reset" value="Reset"></li>
-												</ul>
-										</form>
-									</div>
-								</section>
-							</div>
-						<!-- </div> -->
-							<div class="col-12">
+							<!-- <div class="col-3 col-6-medium col-12-small">	 -->
+								<div class="contactme">
+									<form action="mailto:ciro16@gmail.com" method="post" enctype="text/plain">
+										<input id="footer-text" type="text" name="name" placeholder="Name">
+										<input id="footer-text" type="text" name="mail" placeholder="Email">
+										<input id= "footer-message" type="textarea" name="comment" rows="4" cols="50" placeholder="Message"><br>
+										<input type="submit" value="Send">
+										<input type="reset" value="Reset">
+									</form>
+								</div>
+						</div>
 								<div id="copyright">
 									<ul class="menu">
 										<li>&copy; Ciro Griffiths, 2020</li>
 									</ul>
 								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
-		</div>
+					<!-- </footer> -->
+				</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
