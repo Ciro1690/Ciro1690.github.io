@@ -1966,14 +1966,13 @@ input, select, textarea {
 /* Footer */
 
 	.contactme {
-		width: calc(66.666% - 50px);
+		width: auto;
 		margin-right: 50px;
 	}
 
 	.contact-info {
-		width: calc(33.333% - 100px);
+		width: auto;
 		text-align: left;
-		margin-left: 100px;
 	}
 
 	.contact-info dd a {
@@ -1992,11 +1991,11 @@ input, select, textarea {
 	}
 
 	#footer-text {
-		width: 50%;
+		width: 20%;
 	}
 
 	#footer-message {
-		width: 75%;
+		width: 40%;
 		height: 100px;
 	}
 
