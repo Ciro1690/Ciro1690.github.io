@@ -1624,6 +1624,7 @@ input, select, textarea {
 
 		.box.excerpt .image, .box.excerpt p {
 			margin-bottom: 4px;
+			border-bottom: 1px solid #ccc;
 		}
 
 	.box.feature1 {
