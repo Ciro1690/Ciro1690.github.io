@@ -1,258 +1,109 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Ciro Griffiths</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/favicon_io/favicon.ico">
-		<script src="https://kit.fontawesome.com/7bf8b700c0.js" crossorigin="anonymous"></script>
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ciro Griffiths</title>
+	<link rel="icon" href="images/favicon_io/favicon.ico">
+	<link rel="stylesheet" href="./main.css" />
+	<script src="https://kit.fontawesome.com/7bf8b700c0.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 
-						<!-- Banner -->
-							<div id="banner">
-								<h2><strong>Ciro Griffiths</strong> 
-									<br>software engineer <br> 
-									<a><img class="self-photo" src="images/chef.jpg" alt="self"></a>
-								</h2>
-							</div>
+<body>
+	<nav id="nav-bar">
+		<ul>
+			<li><a href="#banner">About Me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#contact-info">Resources</a></li>
+			<li><a href="#contact">Reach out</a></li>
+		</ul>
+	</nav>
 
-					</div>
+	<div id="main">
+		<header id="header">
+			<a><img class="self-photo" src="images/chef.jpg" alt="self"></a>
+			<label>Ciro Griffiths</label>
+			<label>Software Engineer</label>
+		</header>
+
+		<div id="banner">
+			<h1>My name is Ciro</h1>
+			<h2>I develop software in San Diego</h2></br>
+
+			<p>I am a software engineer who specializes in building high-quality, responsive websites. I love working in
+				a team and am passionate about
+				constantly learning and improving my skillset.</p>
+
+			<p>I have just moved to beautiful San Diego and love to cook, travel and hike in my free time. Please feel
+				free to reach out to me to discuss anything, professional or personal. I'd love to hear from you!</p>
+		</div>
+
+		<div id="container">
+			<section id="skills">
+				<h2 id="section-h2">Skills</h2></br></br>
+				<div id="skills-imgs">
+					<img src="./images/python.jpg" alt=python />
+					<img src="./images/js.png" alt=js />
+					<img src="./images/html.png" alt=html />
+					<img src="./images/css2.png" alt=css />
+					<img src="./images/react2.png" alt=react />
+					<img src="./images/ruby.jpg" alt=ruby />
+					<img src="./images/rails.png" alt=rails />
+					<img src="./images/jquery.jpeg" alt=jquery />
+					<img src="./images/sql.jpeg" alt=sql />
+					<img src="./images/postgresql.png" alt=postgresql />
 				</div>
+				<label id=skills-label>Python • Javascript • HTML • CSS • React</label> </br>
+				<label id=skills-label>Ruby • Ruby on Rails • JQuery • SQL • PostgreSQL</label>
+			</section>
 
-			<!-- Main Wrapper
-				<div id="main-wrapper">
-					<div class="wrapper style1">
+			<section id="education">
+				<h2 id="section-h2">Education</h2>
+				<article>
+					<div href="#" class="union"><img src="images/union.jpeg" alt="Union"></div>
+					<header class="union-text">
+						<p>Bachelor's Degree in Neuroscience</p>
+						<p>Scholar's Program, Dean's List</p>
+						<p>Graduated Magna Cum Laude</p>
+					</header>
+				</article>
+			</section>
 
-								<section class="container box feature1">
-									<div class="row">
-										<div class="col-12">
-											<header class="first major">
-												<h2>Recent Work</h2>
-											</header>
-										</div>
-										<div class="col-4 col-12-medium">
-											<section>
-												<header class="second icon solid fa-user">
-													<h3>Project # 1</h3>
-													<p>TDB</p>
-												</header>
-											</section>
-										</div>
-										<div class="col-4 col-12-medium">
-											<section>
-												<header class="second icon solid fa-cog">
-													<h3>Project #2</h3>
-													<p>TBD</p>
-												</header>
-											</section>
-										</div>
-										<div class="col-4 col-12-medium">
-											<section>
-												<header class="second icon solid fa-chart-bar">
-													<h3>Project #3</h3>
-													<p>TBD</p>
-												</header>
-											</section>
-										</div>
-									</div>
-								</section>
+			<section id="contact-info">
+				<h2 id="section-h2">Resources</h2>
+				<ul id="contact-list">
+					<li><i class="fas fa-file"></i><a href="images/CGResume.pdf"> Resume</a></li>
+					<li><i class="fab fa-github"></i><a href="https://github.com/Ciro1690" target="blank"> Ciro1690</a>
+					</li>
+					<li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ciro-griffiths-49b2a032/">
+							Linkedin</a></li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a
+							href="mailto:Ciro16@gmail.com?subject=Hello!">Ciro16@gmail.com</a></li>
+					<li><i class="fas fa-mobile-alt"></i> (845) 750-3166</li>
+				</ul>
+			</section>
 
-						</div>
-					</div> -->
+			<section id="contact">
+				<h2 id="section-h2">Reach out</h2><br>
+				<form id="contact-form" action="mailto:ciro16@gmail.com" method="post" enctype="text/plain">
+					<input id="footer-text" type="text" name="name" placeholder="Name">
+					<input id="footer-text" type="text" name="mail" placeholder="Email"></head><br>
+					<input id="footer-message" type="textarea" name="comment" rows="4" cols="50"
+						placeholder="Message"><br>
+					<button id="contact-button" type="submit" value="Send">Send</button>
+					<button id="contact-button" type="reset" value="Reset">Reset</button>
+				</form>
+			</section>
+		</div>
 
-					<div class="wrapper style3">
-							<div class="container">
-								<div class="row">
-									<div class="col-8 col-12-medium">
+		<div id="copyright">
+			<ul class="menu">
+				<li>&copy; Ciro Griffiths, 2020</li>
+			</ul>
+		</div>
+	</div>
+</body>
 
-										<!-- Article list -->
-											<section class="box article-list">
-												<h2>Skills</h2>
-
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/ruby.jpg" alt="ruby"/></div>
-														<div>
-															<header>
-																<h3><div href="#">Ruby</div></h3>
-															</header>
-														</div>
-													</article>
-													
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/rails.png" alt="Rails" /></div>
-														<div>
-															<header>
-																<h3><div href="#">Rails</div></h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/postgresql.png" alt="PostgreSQL" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">PostgreSQL</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-												<!-- Excerpt -->
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/js.png" alt="JS" /></div>
-														<div>
-															<header>
-																<h3><div href="#">Javascript</div></h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/python.jpg" alt="Python" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">Python</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/jquery.jpeg" alt="JQuery" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">JQuery</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-			
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/react2.png" alt="React" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">React</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/html.png" alt="HTML5" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">HTML5</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/css2.png" alt="CSS" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">CSS</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-													<article class="box excerpt">
-														<div href="#" class="image left"><img src="images/sql.jpeg" alt="SQL" /></div>
-														<div>
-															<header>
-																<h3>
-																	<div href="#">SQL</div>
-																</h3>
-															</header>
-														</div>
-													</article>
-
-												<!-- Excerpt -->
-
-											</section>
-									</div>
-									<div class="col-4 col-12-medium">
-
-										<!-- Spotlight -->
-											<section class="box spotlight">
-												<h2>Education</h2>
-												<article>
-													<div href="#" class="image featured"><img src="images/union.jpeg" alt="Union"></div>
-													<header>
-														<h3><a href="#">Union College</a></h3>
-														<p>Bachelor's Degree in Neuroscience</p>
-													</header>
-													<p>GPA 3.65, Dean's List, Scholar's Program</p>
-													<p>Study Abroad in Shanghai, China at Fudan University</p>
-												</article>
-												<article>
-													<div href="#" class="image featured"><img src="images/app.jpeg" alt="App Academy"></div>
-
-													<h4><a href="#" class="appacademy">App Academy</a> </h4>
-													
-													<p>Full Stack Development</p>
-							
-												</article>
-											</section>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer Wrapper -->
-				<section id="footer-wrapper">
-					<footer id="footer" class="container">
-					<h2>Get in touch</h2>
-						<!-- <div class="row"> -->
-								<div class="contact-info">
-									<dd><a href="images/CGResume.pdf">Resume</a></dd>
-									<dd><a href="https://github.com/Ciro1690" target="blank" class="icon brands fa-github"> Ciro1690</a></dd>
-									<dd><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ciro-griffiths-49b2a032/"> Linkedin</a></dd>
-									<dd><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:Ciro16@gmail.com?subject=Hello!"> Ciro16@gmail.com</a></dd>
-									<dd><div class="icon solid fa-mobile-alt"> (845) 750-3166</div></dd><br>
-								</div>
-							<!-- <div class="col-3 col-6-medium col-12-small">	 -->
-								<div class="contactme">
-									<p>Please feel free to reach out to connect!</p><br>
-									<form action="mailto:ciro16@gmail.com" method="post" enctype="text/plain">
-										<input id="footer-text" type="text" name="name" placeholder="Name">
-										<input id="footer-text" type="text" name="mail" placeholder="Email">
-										<input id= "footer-message" type="textarea" name="comment" rows="4" cols="50" placeholder="Message"><br>
-										<input type="submit" value="Send">
-										<input type="reset" value="Reset">
-									</form>
-								</div>
-						<!-- </div> -->
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Ciro Griffiths, 2020</li>
-									</ul>
-								</div>
-					</footer>
-				</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
