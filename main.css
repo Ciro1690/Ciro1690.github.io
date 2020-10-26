@@ -44,6 +44,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #container{
     width: 100%;
     display: grid;
@@ -99,7 +103,7 @@ table {
 }
 
 .self-photo {
-    width: 40%;
+    width: 50%;
     height: auto;
     border-radius: 100%;
     border: 4px solid #800000;
