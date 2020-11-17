@@ -142,13 +142,11 @@ section h2 {
 }
 
 #skills-label {
-    font-size: 14px;
     margin-left: 25px;
 }
 
 .union-text {
     text-align: center;
-    font-size: 14px;
 }
 
 #contact-list a {
@@ -213,6 +211,10 @@ section h2 {
     border:0;
     border-radius: 10px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+#connect4 {
+    width: 25%;
 }
 
 @media screen and (max-width: 736px) {
