@@ -76,23 +76,9 @@ table {
     width: calc(100% - 35%);
 }
 
-#one {
+.intro {
    text-align: center; 
    width: 100%;
-   margin-bottom: 25px;
-}
-
-#one h1 {
-    font-size: 40px;
-}
-
-#one h2 {
-    font-size: 30px;
-}
-
-#one p {
-    font-size: 16px;
-    margin-bottom: 10px;
 }
 
 .self-photo {
@@ -127,8 +113,9 @@ section {
 
 section h2 {
     font-size: 30px;  
-    text-align: center;
+    text-align: left;
     margin-bottom: 25px;
+    text-decoration: bold;
 }
 
 #skills-imgs img {
@@ -215,72 +202,4 @@ section h2 {
 
 #connect4 {
     width: 25%;
-}
-
-@media screen and (max-width: 736px) {
-    #main {
-        padding: 2.25em 1.5em 0.25em 1.5em;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    #main {
-    margin: 0;
-    padding: 6em 4em;
-    width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #header {
-    padding: 4.5em 1.5em;
-    }
-    #main {
-        width: 100%;
-    }
-}
-
-    @media screen and (max-width: 736px) {
-    #header {
-    padding: 2.25em 1.5em;
-    }
-    #main {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    #header {
-    background-attachment: scroll;
-    background-position: top left, center center;
-    background-size: auto, cover;
-    left: auto;
-    padding: 6em 4em;
-    position: relative;
-    text-align: center;
-    top: auto;
-    width: 100%;
-    display: block;
-    }
-    #main {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    #header {
-        padding: 8em 15em 16em 4em;
-        height: 200px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        position:absolute;
-        background-image: none
-    }
-
-    #skills-imgs {
-        grid-template-columns: 15% 15% 15% 15% 15%;
-    }
-    #main {
-        width: 100%;
-    }
 }
