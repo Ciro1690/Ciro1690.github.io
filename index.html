@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
 
 <body>
-	<div class="container" id="main">
+	<div class="container-fluid" id="main">
 		<nav id="nav-bar">
 			<ul>
 				<li><a href="#one">About Me</a></li>
@@ -23,9 +23,10 @@
 			</ul>
 		</nav>
 		<div class="row">
-			<header id="header" class="col-3 img-fluid"></header>
+			<header id="header" class="col-4 img-fluid"></header>
 
-			<div class="col-9">
+			<div class="col-14">
+				<div class="container-fluid">
 				<section id="one">
 					<div class='jumbotron'>
 						<img class="self-photo" src="images/professional.jpg" alt="self">
@@ -115,11 +116,11 @@
 						<input id="footer-text" type="text" name="mail" placeholder="Email"></head><br>
 						<input id="footer-message" type="textarea" name="comment" rows="4" cols="50"
 							placeholder="Message"><br>
-						<button id="contact-button" type="submit" value="Send">Send</button>
-						<button id="contact-button" type="reset" value="Reset">Reset</button>
+							<button class="btn btn-info" type="submit" value="Send">Send</button>
+							<button class="btn btn-info" type="reset" value="Reset">Reset</button>
 					</form>
 				</section>
-
+				</div>
 				<div id="copyright">
 					<ul class="menu">
 						<li>&copy; Ciro Griffiths, 2020</li>

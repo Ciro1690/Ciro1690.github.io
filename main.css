@@ -53,7 +53,7 @@ table {
     flex-direction: column;
     background-attachment: scroll, scroll;
     background-image: url('images/mountain.jpg');
-    background-repeat: repeat, no-repeat;
+    background-repeat: no-repeat;
     background-size: auto, 150%;
     height: 100%;
     left: 0;
@@ -95,8 +95,7 @@ section {
     padding: 15px;
 }
 
-.union img {
-    margin-top: 32px;
+.union img, .springboard img {
     width: 50%;
     display: block;
     margin-left: auto;
@@ -105,7 +104,7 @@ section {
 
 #skills-imgs {
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-template-columns: 15% 15% 15% 15% 15%;
     grid-gap: 10px;
     margin-bottom: 12px;
     justify-content: center;
@@ -169,25 +168,6 @@ section h2 {
     right: 0;
 }
 
-#contact-button {
-    display: inline-block;
-    padding: 0.2em 1.45em;
-    margin: 0.1em;
-    border: .15em solid #999999;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-weight: 400;
-    background-color: #cccccc;
-    text-align:center;
-    position: relative;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-#contact-button:hover {
-    background-color:#999999;
-}
-
 #contact-form {
     box-sizing: border-box;
 }
@@ -195,9 +175,7 @@ section h2 {
 #contact-form input {
     padding: 5px;
     margin: 10px 0;
-    border:0;
     border-radius: 10px;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 #connect4 {
