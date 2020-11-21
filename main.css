@@ -62,7 +62,7 @@ table {
 }
 
 section {
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
     padding: 15px;
 }
@@ -82,20 +82,20 @@ section {
     justify-content: center;
 }
 
-section h2 {
-    font-size: 30px;  
-    text-align: left;
+#section-h2 {
+    font-size: 35px;  
+    text-align: center;
     margin-bottom: 25px;
     text-decoration: bold;
+    text-decoration: underline;
 }
 
 #skills-imgs img {
     width: 100%;
-    margin-left: 25px;
 }
 
 #skills-label {
-    margin-left: 25px;
+    font-size: 20px;
 }
 
 .union-text {
@@ -109,24 +109,6 @@ section h2 {
 
 #contact-list li {
     padding: 3px;
-}
-
-#nav-bar {
-    position: fixed;
-    top: 0;
-    right: 10px;
-    background-color: #800000;
-    z-index: 55;
-}
-
-#nav-bar li {
-    float: left;
-}
-
-#nav-bar li a {
-    display: block;
-    padding: 5px;
-    color: white;
 }
 
 #copyright {
