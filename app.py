@@ -2,7 +2,6 @@ from flask import Flask, request, redirect, render_template, flash
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_mail import Mail, Message
 from forms import ContactForm
-from secrets import SECRET_KEY
 import os
 
 # use secret key in production or default to our dev one
