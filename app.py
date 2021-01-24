@@ -5,8 +5,8 @@ from forms import ContactForm
 import os
 
 # use secret key in production or default to our dev one
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'abc123')
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'abc123')
 
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
