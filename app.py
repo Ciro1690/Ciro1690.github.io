@@ -12,7 +12,7 @@ app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'Ciro16@gmail.com'  # enter your email here
-app.config['MAIL_PASSWORD'] = SECRET_KEY # enter your password here
+app.config['MAIL_PASSWORD'] = os.environ.get('SECRET_KEY', 'abc123') # enter your password here
 
 mail = Mail(app)
 debug = DebugToolbarExtension(app)
