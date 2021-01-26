@@ -15,3 +15,11 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.wrapper {
+  width: 45%;
+}
+
+.wrapper img {
+  max-width: 280px;
+}
