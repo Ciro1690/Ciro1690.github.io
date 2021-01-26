@@ -22,23 +22,20 @@ app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 def homepage():
     return render_template("home.html")
 
-@app.route("/skills")
-def skills():
-    return render_template("skills.html")
+@app.route("/skills_education")
+def skills_education():
+    return render_template("skills_education.html")
 
 @app.route("/recent_work")
 def recent_work():
     return render_template("recent_work.html")
 
-@app.route("/education")
-def education():
-    return render_template("education.html")
 
-@app.route("/resources")
-def resources():
-    return render_template("resources.html")
+@app.route("/about_me")
+def contact():
+    return render_template("about_me.html")
 
-@app.route("/reach_out", methods=['GET', 'POST'])
+@app.route("/contact", methods=['GET', 'POST'])
 def reach_out():
     form = ContactForm()
     if form.validate_on_submit():
@@ -52,5 +49,5 @@ def reach_out():
         mail.send(msg)
         flash("Email sent", "success")
         return redirect('/')
-    return render_template("reach_out.html", form=form)
+    return render_template("contact.html", form=form)
 

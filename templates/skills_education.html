@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 {% block title %}Ciro Griffiths{% endblock %}
 {% block content %}
-<h1 class="text-center py-5">Skills</h1>
+<div class='jumbotron bg-light border border-dark rounded'>
+<h1 class="text-center py-3">Skills</h1>
     <div class="row">
         <img class="skills mx-auto d-block" src="../static/images/js.png" alt=js />
         <img class="skills mx-auto d-block" src="../static/images/node.png" alt=nodejs />
@@ -20,5 +21,15 @@
     </div> </br>
     <h3 class="text-center">Javascript • Nodejs • React • Python • Flask • HTML</h3>
     <h3 class="text-center">CSS • Ruby • Ruby on Rails • JQuery •SQL • PostgreSQL</h3>
+</div>
     <hr>
+
+<div class='jumbotron bg-light border border-dark rounded'>
+    <h1 class="text-center py-3">Education</h1>
+        <img class= "mx-auto d-block border" src="../static/images/union.jpeg" alt="Union">
+        <h5 class="text-center m-3">• Bachelor's Degree in Neuroscience <br>• Scholar's Program <br>• Magna Cum Laude</h5>
+        <img class= "mx-auto d-block border" src="../static/images/springboard.png" alt="Springboard">
+        <h5 class="text-center m-3">• 700+ hours software engineering bootcamp <br><br>• Mastered skills in ​front-end and back-end web
+            development, databases, data structures and algorithms.</h5>
+</div>
 {% endblock %}

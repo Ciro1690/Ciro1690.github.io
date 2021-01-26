@@ -18,13 +18,12 @@
         <a href="/" class="navbar-brand">Ciro Griffiths</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation"><span
                 class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navigation">
+        <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="/skills">Skills</a>
-                <a class="nav-item nav-link" href="/recent_work">Recent Work</a>
-                <a class="nav-item nav-link" href="/education">Education</a>
-                <a class="nav-item nav-link" href="/resources">Resources</a>
-                <a class="nav-item nav-link" href="/reach_out">Reach Out</a>
+                <a class="nav-item nav-link mx-1" href="/skills_education">Skills & Education</a>
+                <a class="nav-item nav-link mx-1" href="/recent_work">Recent Work</a>
+                <a class="nav-item nav-link mx-1" href="/contact">Contact</a>
+                <a class="nav-item nav-link mx-1" href="/about_me">About Me</a>
             </div>
         </div>
     </nav>
@@ -34,7 +33,7 @@
         <div class="alert alert-{{category}}">{{ msg }}</div>
         {% endfor %}
         {% block content %}{% endblock %}
-    <div class="fixed-bottom pt-5">&copy; Ciro Griffiths 2020</div>
+    <div class="fixed-bottom pt-5 text-light">&copy; Ciro Griffiths 2020</div>
 </div>
     <script src="https://unpkg.com/jquery"></script>
     <script src="https://unpkg.com/popper"></script>

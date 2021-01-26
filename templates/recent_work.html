@@ -1,21 +1,26 @@
 {% extends 'base.html' %}
 {% block title %}Ciro Griffiths{% endblock %}
 {% block content %}
-<h1 class="text-center py-5">Recent Work</h1>
-<h3>Games</h3>
-    <section class="row">
-        <article class="col">
-            <a href="https://ciro1690.github.io/Connect4/" target="blank"><img src="../static/images/connect4.png" alt="Connect4"></a>
-        </article>
-        <article class="col">
-            <a href="https://github.com/Ciro1690/Boggle-Flask" target="blank"><img src="../static/images/boggle.jpg" alt="Boggle"></a>
-        </article>
-        <hr>
-    </section>
-    <h3>Blog App</h3>
-    <section class="row">
-        <article class="col">
-            <a href="https://ciro-blog-app.herokuapp.com/users" target="blank"><img src="../static/images/blog.png" alt="Blog"></a>
-        </article>
-    </section>
+<div class='jumbotron bg-light border border-dark rounded'>
+    <h1 class="text-center py-5">Projects</h1>
+
+    <div class="row mb-5">
+        <a class="col-3" href="https://ciro1690.github.io/Connect4/" target="blank"><img class="mr-3" src="../static/images/Connect4.gif" alt="Connect4"></a>
+        <div class="col-9 text-center align-middle">
+            <h3>Interactive Connect 4 Game</h3>
+            <h5>Skills used: Javascript, HTML, CSS</h5>
+            <i class="fab fa-github fa-lg mb-3"></i><a class="mr-2" href="https://github.com/Ciro1690/Connect4" target="blank">Github</a>
+            <a href="https://github.com/Ciro1690/Connect4" target="blank">Live Site</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <a class="col-3" href="https://ciro-blog-app.herokuapp.com/" target="blank"><img class="mr-3" src="../static/images/blog.png" alt="Blogly"></a>
+        <div class="col-9 text-center align-middle">
+            <h3>Blogging App</h3>
+            <h5>Skills used: Python, Flask, Jinja, SQL Alchemy</h5>
+            <i class="fab fa-github fa-lg mb-3"></i><a class="mr-2" href="https://github.com/Ciro1690/Blogly" target="blank">Github</a>
+            <a href="https://ciro-blog-app.herokuapp.com/" target="blank">Live Site</a>
+        </div>
+    </div>
     {% endblock %}
