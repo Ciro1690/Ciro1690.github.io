@@ -32,3 +32,8 @@ body {
   max-width: 70%;
   margin: auto;
 }
+
+#sundial {
+  margin: auto;
+  max-width: 285px;
+}
