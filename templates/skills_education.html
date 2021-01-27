@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
 {% block title %}Ciro Griffiths{% endblock %}
 {% block content %}
-<div class='jumbotron bg-light border border-dark rounded'>
+<div id='jumbo' class='jumbotron border border-dark rounded'>
 <h1 class="text-center py-3">Skills</h1>
+<div id="skills-bg" class="container border border-dark rounded mb-3 p-3">
     <div class="row">
         <img class="skills mx-auto d-block" src="../static/images/js.png" alt=js />
         <img class="skills mx-auto d-block" src="../static/images/node.png" alt=nodejs />
@@ -19,16 +20,17 @@
         <img class="skills mx-auto d-block" src="../static/images/sql.jpeg" alt=sql />
         <img class="skills mx-auto d-block" src="../static/images/postgresql.png" alt=postgresql />
     </div> </br>
+</div>
     <h3 class="text-center">Javascript • Nodejs • React • Python • Flask • HTML</h3>
     <h3 class="text-center">CSS • Ruby • Ruby on Rails • JQuery •SQL • PostgreSQL</h3>
 </div>
     <hr>
 
-<div class='jumbotron bg-light border border-dark rounded'>
+<div id='jumbo' class='jumbotron border border-dark rounded'>
     <h1 class="text-center py-3">Education</h1>
-        <img class= "mx-auto d-block border" src="../static/images/union.jpeg" alt="Union">
+        <img id="education" class= "mx-auto d-block border border-dark rounded" src="../static/images/union.jpeg" alt="Union">
         <h5 class="text-center m-3">• Bachelor's Degree in Neuroscience <br>• Scholar's Program <br>• Magna Cum Laude</h5>
-        <img class= "mx-auto d-block border" src="../static/images/springboard.png" alt="Springboard">
+        <img id="education" class= "mx-auto d-block border border-dark rounded" src="../static/images/springboard.png" alt="Springboard">
         <h5 class="text-center m-3">• 700+ hours software engineering bootcamp <br><br>• Mastered skills in ​front-end and back-end web
             development, databases, data structures and algorithms.</h5>
 </div>
