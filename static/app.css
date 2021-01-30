@@ -1,13 +1,13 @@
 body {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Lora', serif;
     background-color: #0d3541;
 }
 
 .self-photo {
-    width: 125px;
+    width: 175px;
     height: auto;
-    border-radius: 100%;
-    border: 4px solid #800000;
+    border-radius: 15%;
+    border: 4px solid #0d3541;
     margin-bottom: 25px;
 }
 
