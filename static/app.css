@@ -46,3 +46,7 @@ body {
   color: #fff;
   font-size: 22px
 }
+
+#resources, #contact-form {
+  font-size: 20px;
+}

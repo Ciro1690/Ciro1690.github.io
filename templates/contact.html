@@ -2,7 +2,7 @@
 {% block title %}Ciro Griffiths{% endblock %}
 {% block content %}
 <div id="jumbo" class='jumbotron border border-dark rounded'>
-    <h1 class="text-center py-5">Contact</h1>
+    <h1 class="display-4 text-center py-5">Contact</h1>
     <div id="resources" class="text-center border border-dark rounded p-3">
         <i class="fas fa-file mb-3"></i><a href="../static/images/CGResume.pdf" target="blank"> Resume</a><br>
         <i class="fab fa-github mb-3"></i><a href="https://github.com/Ciro1690" target="blank"> Ciro1690</a><br>
@@ -10,7 +10,7 @@
             Linkedin</a><br>
         <i class="fa fa-envelope-o mb-3" aria-hidden="true"></i> Ciro16@gmail.com<br>
     </div>
-    <form class="col-lg-6 offset-lg-3 mt-5" method="POST">
+    <form id="contact-form" class="col-lg-6 offset-lg-3 mt-5" method="POST">
         {{ form.hidden_tag() }}
         {% for field in form
         if field.widget.input_type != 'hidden' %}
