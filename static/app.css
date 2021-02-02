@@ -37,3 +37,12 @@ body {
   margin: auto;
   max-width: 285px;
 }
+
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 22px
+}
