@@ -33,7 +33,7 @@ body {
   margin: auto;
 }
 
-#sundial, #blogly {
+#sundial, #blogly, #connect4, #recipebox {
   margin: auto;
   max-width: 285px;
 }
@@ -55,4 +55,13 @@ body {
     background-size: cover; 
     height: 100%;
     width: 100%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;  
+}
+
+.projects {
+  margin: 40px;
 }
