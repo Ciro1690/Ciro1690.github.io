@@ -35,7 +35,6 @@ body {
 
 #sundial, #blogly, #connect4, #recipebox {
   margin: auto;
-  max-width: 285px;
 }
 
 .navbar-dark .navbar-brand {
@@ -57,12 +56,14 @@ body {
     width: 100%;
 }
 
-.vertical-center {
-  display: flex;
-  align-items: center;  
-}
-
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
